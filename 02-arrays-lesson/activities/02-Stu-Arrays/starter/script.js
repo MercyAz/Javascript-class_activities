@@ -33,14 +33,15 @@ for (i=0; i < totalStudents; i++) {
 }
 
 // studentsnames[0] =('NewStudent')
-studentsnames.push ('NewStudent')
-lastname = 'NewStudent'
-studentsnames[0] = 'AnotherNewStudent'
-firstname = 'AnotherNewStudent'
+
+studentsnames.push ('Marcin')
+Newlastname = studentsnames[6]
+studentsnames[0]= 'Pescyln'
+Newfirstname = studentsnames[0]
 console.log(studentsnames)
 
-if(studentsnames[0] == firstname) {
-    console.log( firstname + ' and ' + lastname + ' is in class. ' + 'Welcome to the class ' + firstname + ' and ' +  lastname ) 
+if(studentsnames[0] !== firstname) {
+    console.log( Newfirstname + ' and ' + Newlastname + ' is in class. ' + 'Welcome to the class ' + Newfirstname + ' and ' +  Newlastname ) 
 };
 
 
