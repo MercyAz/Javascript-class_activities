@@ -41,8 +41,12 @@ Newfirstname = studentsnames[0]
 console.log(studentsnames)
 
 if(studentsnames[0] !== firstname) {
-    console.log( Newfirstname + ' and ' + Newlastname + ' is in class. ' + 'Welcome to the class ' + Newfirstname + ' and ' +  Newlastname ) 
-};
+    console.log( Newfirstname + ' is in class. ' + 'Welcome to the class ' + Newfirstname ) 
+}; 
+
+if (studentsnames[6] !== lastname) {
+    console.log (Newlastname + ' is in class. ' + 'Welcome to the class ' + Newlastname)
+}
 
 
 // var firstname = [studentsnames[0]]
